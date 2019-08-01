@@ -16,6 +16,13 @@
             "upperWarning" : 0.5
         },
         {
+            "timeseriesId" : "com.dynatrace.builtin:servicemethod.responsetime",
+            "aggregation" : "avg",
+            "entityIds": "[ADDTOCART_SERVICE-METHOD]",
+            "upperSevere": 800.0,
+            "upperWarning" : 600.0
+        },
+        {
             "timeseriesId" : "com.dynatrace.builtin:service.responsetime",
             "aggregation" : "avg",
             "tags" : "app:front-end,environment:staging",
