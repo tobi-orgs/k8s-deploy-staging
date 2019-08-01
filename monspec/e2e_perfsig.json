@@ -18,7 +18,7 @@
         {
             "timeseriesId" : "com.dynatrace.builtin:servicemethod.responsetime",
             "aggregation" : "avg",
-            "entityIds": "[ADDTOCART_SERVICE-METHOD]",
+            "entityIds": "SERVICE_METHOD-6C0154685AD4A05D",
             "upperSevere": 800.0,
             "upperWarning" : 600.0
         },
